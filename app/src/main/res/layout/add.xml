@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="614dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="538dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <EditText
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="453dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/des"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="155dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="346dp"
+        android:text="Ok"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="244dp"
+        android:text="Cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ok" />
+</androidx.constraintlayout.widget.ConstraintLayout>
